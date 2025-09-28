@@ -1,7 +1,13 @@
 package edu.janiru.model;
 
-public class Book {
+import lombok.*;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+public class Book {
     private long id;
     private String title;
     private String author;
